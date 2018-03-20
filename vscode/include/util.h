@@ -1,8 +1,8 @@
-#include <stdbool.h>
-#include <kipr/botball.h>
 
-#define LIGHT_SENSOR 0
-#define LINE_TRACKER 1
+#include <kipr/botball.h>
+#include <stdbool.h>
+
+#define LINE_TRACKER 0
 
 void init();
 
@@ -16,12 +16,4 @@ void correctPos();
 
 void skipLine(int direction, int linesToSkip);
 
-void skipToEdge(int direction, int linesToSkip);
-
-void stopAtEdge(int direction);
-
-void getToLine();
-
-void trackEdge();
-
-void run();
+void getToPos();

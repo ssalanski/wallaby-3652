@@ -1,7 +1,7 @@
 #include <kipr/botball.h>
 
-#define LEFT_MOTOR 1
-#define RIGHT_MOTOR 0
+#define LEFT_MOTOR 0
+#define RIGHT_MOTOR 1
 
 void moveForward(int speed, int time);
 
